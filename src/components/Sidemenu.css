@@ -1,0 +1,26 @@
+.sidemenu{
+    flex: 0.2;
+    background-color: #202123;
+    color: white;
+    height: 100vh;
+    align-content: center;
+}
+.sideitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+.new_msg{
+    border: 1px solid white;
+}
+@media screen and (min-width:800px) {
+    .margn{
+        margin-left: 2vw;
+    }
+}
+@media screen and (min-width:992px) {
+    .margn{
+        margin-left: 1.5vw;
+    }
+}
